@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    }
+    
+    body {
+      background-image: url(Img/light-blue-and-dark-blue-background-this-background-is-suitable-for-cellphone-backgrounds-laptop-backgrounds-and-more-free-vector.jpg);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .contenedor{
+    max-width: 1150px;
+    margin: 0 auto;
+    }
+
+    .logo{
+        font-size: 28px;
+        color: #15a4f9;
+        font-weight: 800;
+        text-transform: uppercase;
+        flex-direction: column;
+        padding: 13px;
+        position: absolute;
+        top: 0px;
+    }
+
+    .header{
+        padding: 10px;
+    }
+
+    .dropdown .dropbtn img{
+        width: 60px;
+        position: absolute;
+        top: -16px;
+        left: 1080px;
+        
+    }
+  
+
+    .header{
+        background-color:#2a394f;
+        padding: 20px;
+    }
+
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:#2a394f;
+        min-width: 160px;
+        padding: 10px;
+        z-index: 1;
+        border-radius: 10px;
+        top: 27px;
+        left: 1050px;
+        
+    }
+      
+    .dropdown-content li {
+        color: rgb(255, 255, 255);
+        padding: 10px 12px;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        border-radius: 5px;
+        transition: all 1s; 
+        
+    }
+
+    .dropdown-content li a{
+        color: white;
+    }
+      
+    .dropdown-content li:hover {
+        background-color: rgb(168, 177, 230);
+        
+
+    }
+      
+    .dropdown:hover .dropdown-content {
+        display: block;
+        animation-duration: initial;
+        
+        
+    }
+      
+    .dropdown-content .dropbtn:hover {
+        animation-duration: 5s;
+       
+        background-color: rgb(168, 177, 230);
+    }
+    
+    a img:hover {
+        cursor: pointer;
+
+    }
+
+    
+    
+    
+    
